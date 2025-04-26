@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@google/genai": "^0.9.0",
+    "@google/generative-ai": "^0.24.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "validator": "^13.15.0"
+  },
+  "name": "fake-news-detection-chatbot-server",
+  "version": "1.0.0",
+  "description": "1. npm install\r 2. create .env file and add your API key as:\r      API_KEY=\"AIzaSyB6sySH2YxPSzROFGCvRgXz6ZcgpiCfd8A\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  },
+  "type": "module"
+}
